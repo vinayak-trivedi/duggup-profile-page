@@ -41,6 +41,7 @@
 		"node": "18.19.1"
 	},
 	"dependencies": {
+		"bits-ui": "^0.19.5",
 		"clsx": "^2.1.0",
 		"lucide-svelte": "^0.353.0",
 		"tailwind-merge": "^2.2.1",
