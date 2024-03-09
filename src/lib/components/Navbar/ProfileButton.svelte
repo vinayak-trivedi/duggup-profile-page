@@ -5,7 +5,7 @@
 </script>
 
 <div class="flex items-center gap-3">
-	<Avatar.Root>
+	<Avatar.Root class="h-12	w-12">
 		<Avatar.Image class="h-12	w-12" src={userImage} alt="userImage" />
 		<Avatar.Fallback class="h-12	w-12">Vi</Avatar.Fallback>
 	</Avatar.Root>
