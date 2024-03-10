@@ -4,6 +4,6 @@
 </script>
 
 <Navbar />
-<main class="my-4 ml-auto mr-auto max-w-screen-lg gap-2.5">
+<main class="my-4 ml-auto mr-auto w-[95%] max-w-screen-lg gap-2.5">
 	<ProfileSection userImage="https://github.com/shadcn.png" username="Krishna Kiran" />
 </main>
