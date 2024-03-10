@@ -6,7 +6,7 @@
 	import CurrentDesignationDetails from './CurrentDesignationDetails.svelte';
 </script>
 
-<div class="flex items-center gap-10">
+<div class="flex items-center gap-10 w-[85%] ml-auto mr-auto">
 	<div class="flex flex-col items-center">
 		<Avatar.Root class="h-32 w-32 border-[5px] border-[#EAEFF5]">
 			<Avatar.Image class="h-32	w-32" src={userImage} alt="userImage" />
