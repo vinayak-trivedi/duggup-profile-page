@@ -5,7 +5,7 @@
 </script>
 
 <div class="flex items-center gap-5">
-	<p class="w-[150px] shrink-0 text-end">{date}</p>
+	<p class="w-[120px] shrink-0 text-end">{date}</p>
 	<img class="self-stretch" src="/icons/timeLineActivityLine.svg" alt="" />
 	<div class="flex justify-between">
 		{#each posts as post}
