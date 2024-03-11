@@ -5,7 +5,8 @@
 </script>
 
 <Navbar />
+<img src={'/common/line.svg'} width="100%" alt="" />
 <main class="my-4 ml-auto mr-auto flex w-[95%] max-w-screen-xl flex-col gap-2.5 gap-4">
-	<ProfileSection userImage="https://github.com/shadcn.png" username="Krishna Kiran" />
+	<ProfileSection userImage="/common/user.svg" username="Krishna Kiran" />
 	<TimeLineSection />
 </main>
