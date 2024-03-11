@@ -7,7 +7,7 @@ const buttonVariants = tv({
 	variants: {
 		variant: {
 			primary:
-				'shadow-[0px_4px_0px_0px_#4D4D4D] border-[0.5px] py-1.5 px-4 border-[#4D4D4D] flex items-center gap-3 text-sm'
+				'shadow-[0px_4px_0px_0px_#4D4D4D] border-[0.5px] py-1.5 px-4 border-[#4D4D4D] color-[#141618] font-normal flex items-center gap-3 text-sm'
 		},
 		size: {
 			default: 'h-10 px-4 py-2',

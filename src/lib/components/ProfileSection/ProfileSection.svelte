@@ -13,7 +13,7 @@
 		</Avatar.Root>
 		<p class="color-[#141618] text-center text-2xl font-bold">{username}</p>
 	</div>
-	<div class="flex w-[60%] flex-col justify-between gap-6">
+	<div class="color-[#141618] flex w-[60%] flex-col justify-between gap-6">
 		<p class="text-sm font-normal">
 			Co-Founder and CEO at Duggup - Social network for people in tech. Ex-Amazon Head of
 			Engineering. I write hot-takes on building a business, shipping delightful products and
