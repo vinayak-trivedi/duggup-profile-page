@@ -7,7 +7,7 @@
 <div class="flex items-center gap-5">
 	<p class="w-[120px] shrink-0 text-end">{date}</p>
 	<img class="self-stretch" src="/icons/timeLineActivityLine.svg" alt="" />
-	<div class="flex justify-between">
+	<div class="mt-3 flex justify-between">
 		{#each posts as post}
 			<PostItem postImage={post.image} postText={post.text} />
 		{/each}

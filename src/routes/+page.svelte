@@ -5,7 +5,7 @@
 </script>
 
 <Navbar />
-<main class="flex flex-col gap-4 my-4 ml-auto mr-auto w-[95%] max-w-screen-xl	 gap-2.5">
+<main class="my-4 ml-auto mr-auto flex w-[95%] max-w-screen-xl flex-col gap-2.5 gap-4">
 	<ProfileSection userImage="https://github.com/shadcn.png" username="Krishna Kiran" />
 	<TimeLineSection />
 </main>
