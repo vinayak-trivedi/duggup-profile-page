@@ -1,10 +1,10 @@
 <script lang="ts">
-	export let companyLogo: string | undefined;
-	export let companyName: string | undefined;
-	export let companyLocation: string | undefined;
-	export let joinedDate: string | undefined;
-	export let position: string | undefined;
-	export let exploymentType: string | undefined;
+	export let companyLogo: string;
+	export let companyName: string;
+	export let companyLocation: string;
+	export let joinedDate: string;
+	export let position: string;
+	export let employmentType: string;
 </script>
 
 <div class="flex flex items-center gap-5">
@@ -18,6 +18,6 @@
 	<img class="self-stretch" src="/icons/timeLineCareerUpdateLine.svg" alt="" />
 	<div class="flex flex-col justify-between">
 		<p class="color-[#141618] text-xl font-bold">{position}</p>
-		<p class="color-[#7A9299] text-xs font-normal">{exploymentType}</p>
+		<p class="color-[#7A9299] text-xs font-normal">{employmentType}</p>
 	</div>
 </div>
