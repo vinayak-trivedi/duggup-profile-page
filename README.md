@@ -1,38 +1,83 @@
-# create-svelte
+# Duggup Profile Page
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+## Running the project locally
 
-## Creating a project
+1. Clone the repository:
+```
+git clone https://github.com/vinayak-trivedi/duggup-profile-page
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+```
+2. Navigate to the project directory:
+```
+cd duggup-profile-page
 ```
 
-## Developing
+3. Install dependencies:
+```
+npm install
+```
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
+4. To run the project locally, use the following command:
+```
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+## Folder Structure
 
-To create a production version of your app:
-
-```bash
-npm run build
+```
+duggup-profile-page
+  ┣ src
+  ┃ ┣ lib
+  ┃ ┃ ┣ components
+  ┃ ┃ ┃ ┣ Navbar
+  ┃ ┃ ┃ ┃ ┣ navbar.constant.ts
+  ┃ ┃ ┃ ┃ ┣ Navbar.svelte
+  ┃ ┃ ┃ ┃ ┣ NavbarItem.svelte
+  ┃ ┃ ┃ ┃ ┗ ProfileButton.svelte
+  ┃ ┃ ┃ ┣ ProfileSection
+  ┃ ┃ ┃ ┃ ┗ ProfileSection.svelte
+  ┃ ┃ ┃ ┣ TimeLineSection
+  ┃ ┃ ┃ ┃ ┣ PostItem.svelte
+  ┃ ┃ ┃ ┃ ┣ TimeLineActivity.svelte
+  ┃ ┃ ┃ ┃ ┣ TimeLineCareerUpdate.svelte
+  ┃ ┃ ┃ ┃ ┗ TimeLineSection.svelte
+  ┃ ┃ ┃ ┗ ui
+  ┃ ┃ ┃ ┃ ┣ avatar
+  ┃ ┃ ┃ ┃ ┃ ┣ avatar-fallback.svelte
+  ┃ ┃ ┃ ┃ ┃ ┣ avatar-image.svelte
+  ┃ ┃ ┃ ┃ ┃ ┣ avatar.svelte
+  ┃ ┃ ┃ ┃ ┃ ┗ index.ts
+  ┃ ┃ ┃ ┃ ┗ button
+  ┃ ┃ ┃ ┃ ┃ ┣ button.svelte
+  ┃ ┃ ┃ ┃ ┃ ┗ index.ts
+  ┃ ┃ ┣ types
+  ┃ ┃ ┃ ┗ global.ts
+  ┃ ┃ ┣ index.ts
+  ┃ ┃ ┗ utils.js.ts
+  ┃ ┣ routes
+  ┃ ┃ ┣ +layout.svelte
+  ┃ ┃ ┗ +page.svelte
+  ┃ ┣ app.d.ts
+  ┃ ┣ app.html
+  ┃ ┣ app.pcss
+  ┃ ┗ index.test.ts
+  ┣ static
+  ┣ node_modules
+  ┣ .eslintignore
+  ┣ .eslintrc.cjs
+  ┣ .gitignore
+  ┣ .npmrc
+  ┣ .prettierignore
+  ┣ .prettierrc
+  ┣ components.json
+  ┣ package-lock.json
+  ┣ package.json
+  ┣ postcss.config.cjs
+  ┣ README.md
+  ┣ svelte.config.js
+  ┣ tailwind.config.js
+  ┣ tsconfig.json
+  ┗ vite.config.ts
 ```
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+**Live link:** https://duggup-profile-page.vercel.app/
