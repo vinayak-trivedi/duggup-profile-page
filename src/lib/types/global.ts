@@ -4,7 +4,7 @@ export interface Post {
 }
 
 export interface CareerUpdate {
-	type: 'career_update'; // Specify the exact string literal type
+	type: 'career_update';
 	date: null;
 	details: {
 		companyLogo: string;
@@ -17,7 +17,7 @@ export interface CareerUpdate {
 }
 
 export interface Activity {
-	type: 'Activity'; // Specify the exact string literal type
+	type: 'Activity';
 	date: string;
 	posts: Post[];
 }
