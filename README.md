@@ -1,4 +1,6 @@
 # Duggup Profile Page
+![image](https://github.com/vinayak-trivedi/duggup-profile-page/assets/90315175/f054c04b-9989-426b-91d3-2342ecbae05a)
+
 
 ## Running the project locally
 
